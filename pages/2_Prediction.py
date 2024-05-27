@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Import model & scaler
-jantung_model = pickle.load(open('HD_machine.sav', 'rb'))
+jantung_model = pickle.load(open('HD_Machine.sav', 'rb'))
 scaler = joblib.load('scaler.save') 
 
 # Judul
